@@ -1,0 +1,27 @@
+.footer {
+padding: 25px 40px;
+background: linear-gradient(90deg, #0b5ed7, #4f8cff);
+color: white;
+text-align: center;
+}
+
+
+.footer p {
+margin: 0 0 8px 0;
+font-size: 13px;
+}
+
+
+.social-links a {
+margin: 0 10px;
+color: white;
+text-decoration: none;
+font-size: 13px;
+opacity: 0.9;
+}
+
+
+.social-links a:hover {
+opacity: 1;
+text-decoration: underline;
+}
