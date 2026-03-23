@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --primary: #ffc107;
+  --dark: #212529;
+  --light: #f8f9fa;
+  --grey: #6c757d;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  color: var(--dark);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: var(--primary);
+  border-radius: 0.5rem;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.menu-item {
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px);
+}
+
+.btn-outline-warning:hover {
+  color: #000 !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
