@@ -16,7 +16,7 @@ const Menu = ({ items }) => {
                     className="card-img-top w-100 h-100 object-fit-cover transition"
                   />
                   <span className="position-absolute top-0 end-0 bg-warning text-dark fw-bold px-3 py-1 m-3 rounded-pill">
-                    ${price}
+                    ₹{price}
                   </span>
                 </div>
                 <div className="card-body p-4">
